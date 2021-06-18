@@ -1,70 +1,136 @@
-# Getting Started with Create React App
+<p align="center">
+  <img alt="Home" src="./home.png" />
+</p>
+<br>
+<hr>
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">
+  Projeto: Habitare
+</h2>
+<br>
 
-## Available Scripts
+<blockquote align="center">Sorria no espelho, faça isso todas as manhãs e você comecará a ver uma grande diferença em sua vida.”
 
-In the project directory, you can run:
+(Yoko Ono)</blockquote>
+<br>
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <a href="LICENSE">
+    <img alt="LICENSE" src="https://img.shields.io/npm/l/express">
+  </a>
+  <a href="NPM">
+    <img alt="NPM" src="https://img.shields.io/npm/v/npm">
+  </a>
+  <a href="GitHub followers">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/BrunoBelarminoNog?style=social">
+  </a>
+</p>
+<hr>
+<br>
+<br>
 
-### `yarn test`
+# :rocket: Sobre o projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Acredito que pequenas mudanças nos fazem se sentir muito melhores, e o Habitare nasce com o intuito de levar motivação em uma jornada para se conquistar uma vida mais feliz, saudável e produtiva, organizando ações diárias, semanais, quinzenais ou mensais de forma que se tornem bons hábitos a serem levados por muito tempo.
 
-### `yarn build`
+Durante toda sua a jornada dentro do app, o usuário irá desbloqueia conquistas em formato de insignias e crescendo seu nível, ou seja, a partir de uma gamificação o usuário recebe estímulos para permanecer no sistema e completar seus hábitos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Além de hábitos indivíduais e as conquistas, o Habitare também conta com grupos, que reúnem usuários com o mesmo objetivo, para se ajudarem nestas conquistas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este projeto foi construído em grupo, seguindo metodologia SCRUM.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**O Habitare é um projeto realizado dentro do curso de desenvolvimento full-stack da Kenzie Academy Brasil.**
 
-### `yarn eject`
+**VISITE EM: https://habitare.vercel.app/**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :computer: Tecnologias utilizadas
+A seguinte stack foi utilizada na construção do projeto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- ReactJS
+- Consulta e gravação em APIs usando Axios
+- Context
+- React Hook Form
+- Yup
+- Styled-components
+- React-router-dom
+- JWT
+- Lottie
+- GreenSock
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br>
 
-## Learn More
+## :construction_worker: Instalação
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Primeiramente você precisa ter instalado o [Node.js](https://nodejs.org/en/download/), depois efetuar o clone deste repositório a partir do seguinte comando:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+git clone https://github.com/BrunoBelarminoNog/habitare.git
+```
 
-### Code Splitting
+URLs SSH fornecem acesso a um repositório Git via SSH, um protocolo seguro. Se você tiver uma chave SSH registrada em
+sua conta do Github, clone o projeto usando este comando:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+git clone git@github.com:BrunoBelarminoNog/habitare.git
+```
 
-### Analyzing the Bundle Size
+**Instale as dependências**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+yarn || npm install
+```
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Inicie o servidor**
 
-### Advanced Configuration
+```
+yarn start || npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+# :art: Layout
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br />
+<p align="center">
+  <img src="./home.png" />
+</p>
+<p align="center">
+  <img src="./login.png" />
+</p>
+<p align="center">
+  <img src="./dashboard.png" />
+</p>
+<p align="center">
+  <img src="./achievements.png" />
+</p>
+<p align="center">
+  <img src="./groups.png" />
+</p>
+<p align="center">
+  <img src="./404.png" />
+</p>
+<br />
+
+
+
+# :pushpin: Contribuindo
+
+Sinta-se à vontade para registrar um novo problema com o respectivo título e descrição no repositório Habitare . Se você já encontrou uma solução para o problema, eu adoraria revisar sua solicitação de pull!
+
+Verifique a página de contribuição para ver os melhores lugares para registrar problemas, iniciar discussões e começar a contribuir.
+
+
+# :unlock: Licença
+Lançado em 2020. Este projeto está sob a licença do MIT .
+
+Feito com muita dedicação por Bruno Belarmino :zap:
+
+Me siga nas redes! [LinkdIn](https://www.linkedin.com/in/bruno-belarmino-nog/)
